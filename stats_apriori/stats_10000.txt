@@ -1,0 +1,28 @@
+Operating on file: dataT10K500D12L.data.txt
+Transaction Size: 9949
+Support count: 10
+Frequent 1 itemset size: 472
+Frequent 2 itemset size: 24085
+Transaction Traverse Size: 9944
+Transaction Traverse Size: 9864
+Frequent 3 itemset size: 8049
+Transaction Traverse Size: 4322
+Frequent 4 itemset size: 3786
+Transaction Traverse Size: 2095
+Frequent 5 itemset size: 2329
+Transaction Traverse Size: 1006
+Frequent 6 itemset size: 1115
+Transaction Traverse Size: 563
+Frequent 7 itemset size: 407
+Transaction Traverse Size: 205
+Frequent 8 itemset size: 111
+Transaction Traverse Size: 51
+Frequent 9 itemset size: 21
+Transaction Traverse Size: 28
+Frequent 10 itemset size: 2
+Transaction Traverse Size: 0
+Frequent 11 itemset size: 0
+execution time: 584704 milliseconds
+Number of strong association rules: 161856
+Total frequent-itemset map size: 40377
+Processing Complete.

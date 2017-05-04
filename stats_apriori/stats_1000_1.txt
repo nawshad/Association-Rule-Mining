@@ -1,0 +1,12 @@
+Operating on file: dataT10K500D12L.data_1000_1.txt
+Transaction Size: 1000
+Support count: 10
+Frequent 1 itemset size: 333
+Frequent 2 itemset size: 255
+Transaction Traverse Size: 1000
+Transaction Traverse Size: 216
+Frequent 3 itemset size: 0
+execution time: 2561.38 milliseconds
+Number of strong association rules: 0
+Total frequent-itemset map size: 588
+Processing Complete.
