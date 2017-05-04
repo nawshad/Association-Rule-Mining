@@ -5,9 +5,7 @@
 2. g++ -o apriori apriori.cpp OR gcc apriori.cpp -lstdc++ -o apriori
 then type ./apriori in command line.
 
-3. The executable should get four parameters as input: 1- file name; 2-minimum-support; and 3- minimum confidence. The thresholds should be numbers between 0 and 1. The forth parameter is either "r", "f", "a", or absent. When "r", then all strong association rules are displayed. When "f" then all frequent itemsets are displayed. When "a" then all frequent itemsets and all strong association rules are displayed. When absent, then only the number of frequent itemsets of different sizes and the number of strong rules are displayed.
-
-When displaying the frequent itemsets, their support "(s)" is printed. When displaying the strong rules, their support and confidence "(s, c)" is printed. In both cases with 2 decimal point precision.
+3. The executable should get four parameters as input: 1- file name; 2-minimum-support; and 3- minimum confidence. The thresholds should be numbers between 0 and 1. The forth parameter is either "r", "f", "a", or absent. When "r", then all strong association rules are displayed. When "f" then all frequent itemsets are displayed. When "a" then all frequent itemsets and all strong association rules are displayed. When absent, then only the number of frequent itemsets of different sizes and the number of strong rules are displayed. When displaying the frequent itemsets, their support "(s)" is printed. When displaying the strong rules, their support and confidence "(s, c)" is printed. In both cases with 2 decimal point precision.
 
 
 4. stats.txt in stats_* folder contains all the execution time and number of frequent item sets and strong association rules for 100, 1000 and 10,000 datasets.
