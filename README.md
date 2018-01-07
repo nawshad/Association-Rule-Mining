@@ -1,6 +1,6 @@
 ***Read Me***
 
-1. Please copy the file apriori.cpp from â€œCPP filesâ€ folder to the â€œDataâ€ folder and run the following command:
+1. Copy the file apriori.cpp from “CPP files” folder to the “Data” folder and run the following command:
 
 2. g++ -o apriori apriori.cpp OR gcc apriori.cpp -lstdc++ -o apriori
 then type ./apriori in command line.
