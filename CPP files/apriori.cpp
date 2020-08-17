@@ -42,8 +42,6 @@ string comma_seperated_list(vector<int> vector_of_ints){
     return s;
 }
     
-
-
 int print_map(std::map<int,int> items, int trans_size) {
     cout<<"Frequent 1 itemsets:"<<endl;
     for (std::map<int,int>::iterator it=items.begin(); 
