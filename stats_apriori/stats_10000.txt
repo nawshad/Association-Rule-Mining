@@ -22,7 +22,6 @@ Transaction Traverse Size: 28
 Frequent 10 itemset size: 2
 Transaction Traverse Size: 0
 Frequent 11 itemset size: 0
-execution time: 584704 milliseconds
 Number of strong association rules: 161856
 Total frequent-itemset map size: 40377
 Processing Complete.
