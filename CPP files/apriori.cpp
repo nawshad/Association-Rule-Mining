@@ -97,7 +97,6 @@ int write_L_final(std::map<vector<int> ,int> items, int count_itemsets, int tran
 }
 
 int print_L_final(std::map<vector<int> ,int> items, int count_itemsets, int trans_size){
-        
         for(int i=2; i<count_itemsets; i++){ 
             cout<<"Frequent "<<i<<" itemsets: "<<endl;
             for (std::map<vector<int>,int>::iterator it=items.begin(); 
@@ -207,7 +206,6 @@ vector< vector<int> > gen_all_subsets(vector<int> itemset)
 }
 
 double minconf(int count_numer, int count_denom){
-    
     double minconf_value = (double)count_numer/(double)count_denom;
     return minconf_value;
 }
@@ -337,7 +335,6 @@ std::map<vector<int>, int> gen_n_minsups_itemsets_count_map(std::map<int, vector
 
 std::map<int, vector<vector<int> > > gen_n_itemsets_trans_table(std::map<vector<int>, int> prev_minsup_item_counts_map,
                                                                 std::map<int, vector<vector<int> > > prev_itemset_trans_table){
-    
     std::map<int, vector<vector<int> > > n_itemset_trans_table;
     
     //First iterate through the trans table
@@ -417,7 +414,6 @@ std::map<int, vector<vector<int> > > gen_n_itemsets_trans_table(std::map<vector<
 int freq_itemset_generator(string filename, double sup_threshold, double conf_threshold, string c){
     //read the file and store all one items, sort them and store in a vector and also, save all
     //the transactions in a vector of vectors.
-     
     std::ifstream file(filename);
     std::string line; 
     std::string item;
@@ -539,7 +535,6 @@ int freq_itemset_generator(string filename, double sup_threshold, double conf_th
 }
 
 int test_codes(){
-    
     vector<int> dummy_itemset;
     dummy_itemset.push_back(1);
     dummy_itemset.push_back(2);
@@ -553,7 +548,6 @@ int test_codes(){
     dummy_itemset.push_back(10);
     dummy_itemset.push_back(11);
     
-     
     vector<int> lt;  
     vector<vector<int> > vector_of_n_sub_items;
     subset(dummy_itemset,2,0,lt,vector_of_n_sub_items); 
@@ -563,7 +557,6 @@ int test_codes(){
 }
 
 int main(int argc, char** argv) {
-     
     if(argc < 4) {
         cout<<"You must provide minimum 3 arguments"<<endl;
         exit(0);
@@ -580,7 +573,6 @@ int main(int argc, char** argv) {
          string c = argv[4];
          freq_itemset_generator(file_name, support, confidence, c);
     }
-    
     return 0;
 }  
 
