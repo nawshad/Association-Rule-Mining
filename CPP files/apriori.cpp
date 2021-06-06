@@ -536,22 +536,12 @@ int freq_itemset_generator(string filename, double sup_threshold, double conf_th
 
 int test_codes(){
     vector<int> dummy_itemset;
-    dummy_itemset.push_back(1);
-    dummy_itemset.push_back(2);
-    dummy_itemset.push_back(3);
-    dummy_itemset.push_back(4);
-    dummy_itemset.push_back(5);
-    dummy_itemset.push_back(6);
-    dummy_itemset.push_back(7);
-    dummy_itemset.push_back(8);
-    dummy_itemset.push_back(9);
-    dummy_itemset.push_back(10);
-    dummy_itemset.push_back(11);
-    
+    for (i=0; i<10; i++){
+	dummy_itemset.push_back(i);
+    }
     vector<int> lt;  
     vector<vector<int> > vector_of_n_sub_items;
     subset(dummy_itemset,2,0,lt,vector_of_n_sub_items); 
-
     cout<<vector_of_n_sub_items.size()<<endl;
     return 0;
 }
