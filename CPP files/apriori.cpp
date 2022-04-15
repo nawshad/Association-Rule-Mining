@@ -59,8 +59,10 @@ int write_map(std::map<int, int> one_items_map, int trans_size){
         it!=one_items_map.end(); ++it){
         myfile<< it->first<<" "<<std::fixed << std::setprecision(2)<<"("<<(double)it->second/trans_size<<")"<<endl;
     }
-    return 0;
+
     myfile.close();
+    return 0;
+
 }
 
 int print_map_with_vector_keys(std::map<vector<int> ,int> items, int trans_size){
@@ -536,7 +538,7 @@ int freq_itemset_generator(string filename, double sup_threshold, double conf_th
 
 int test_codes(){
     vector<int> dummy_itemset;
-    for (i=0; i<10; i++){
+    for (int i=0; i<10; i++){
 	dummy_itemset.push_back(i);
     }
     vector<int> lt;  
