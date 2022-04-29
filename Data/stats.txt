@@ -1,0 +1,16 @@
+Operating on file: d2s+dsd_orig_train_for_apriori_idx.txt
+Transaction Size: 1956
+Support count: 0
+Frequent 1 itemset size: 10
+Frequent 2 itemset size: 42
+Transaction Traverse Size: 346
+Transaction Traverse Size: 40
+Frequent 3 itemset size: 12
+Transaction Traverse Size: 2
+Frequent 4 itemset size: 1
+Transaction Traverse Size: 0
+Frequent 5 itemset size: 0
+execution time: 3.6 milliseconds
+Number of strong association rules: 170
+Total frequent-itemset map size: 65
+Processing Complete.
